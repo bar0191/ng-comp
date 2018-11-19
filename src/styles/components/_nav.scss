@@ -1,0 +1,46 @@
+.nav {
+  position: relative;
+  display: none;
+  height: 60px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: $white;
+
+  justify-content: space-between;
+  align-items: center;
+
+  @media #{$medium} {
+    display: flex;
+  }
+
+  .list {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+
+    &__search {
+      display: flex;
+    }
+  }
+
+  .logo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bag {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__link {
+    cursor: pointer;
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+// Globals
+@import 'global/_default.scss';
+@import 'global/_variables.scss';
+
+// Utils
+@import 'utils/_mixins.scss';
+
+// Pages
+@import 'pages/_app.scss';
+
+// Components
+@import 'components/_mobileNav.scss';
+@import 'components/_nav.scss';
+@import 'components/_header.scss';
+@import 'components/_products.scss';
+@import 'components/_productFilter.scss';

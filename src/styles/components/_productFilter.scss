@@ -1,0 +1,13 @@
+.product-filter {
+  @include wrapper-max;
+
+  &__dropdown {
+    display: flex;
+    align-items: flex-end;
+
+    &-main {
+      font-size: 36px;
+      margin-left: 10px;
+    }
+  }
+}

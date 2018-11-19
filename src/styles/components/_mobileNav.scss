@@ -1,0 +1,70 @@
+// mobile nav block
+.mobileNav {
+  position: relative;
+  height: 48px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: $pleather;
+  background-color: $white;
+  border-bottom: 1px solid $quartz;
+  transition: all .2s ease;
+
+  @media #{$medium} {
+    display: none;
+  }
+
+  // user login block
+  .user-login {
+    display: flex;
+  }
+
+  // dashboard-bar inner block
+  .utility-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    width: 100%;
+    height: 36px;
+    background-color: $quartz;
+
+    // hamburger element
+    &__hamburger {
+      display: flex;
+      margin-left: 24px;
+      margin-right: 24px;
+      cursor: pointer;
+    }
+
+    //search bar element - this could be considered a block
+    &__search {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      border-left: 1px solid $border;
+
+      // search icon element
+      &__icon {
+        margin-left: 16px;
+      }
+
+      // search input element
+      &__input {
+        margin-left: 10px;
+        font-size: 14px;
+        color: $pleather;
+      }
+    }
+  }
+
+  // bag block
+  .bag {
+    display: flex;
+    margin-left: 16px;
+  }
+}
