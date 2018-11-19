@@ -10,24 +10,26 @@ export default class Nav extends PureComponent {
           <li className="nav__link list__search">
             <img src={SearchIcon} alt="" />
           </li>
-          <li className="nav__link">
-            <a>Goods.</a>
+          <li>
+            <a className="nav__link" href="#">Goods.</a>
           </li>
-          <li className="nav__link">
-            <a>Collections.</a>
+          <li>
+            <a className="nav__link" href="#">Collections.</a>
           </li>
-          <li className="nav__link">
-            <a>Stories.</a>
+          <li>
+            <a className="nav__link" href="#">Stories.</a>
           </li>
-          <li className="nav__link">
-            <a>Brands.</a>
+          <li>
+            <a className="nav__link" href="#">Brands.</a>
           </li>
         </ul>
         <div className="logo">
-          <a className="nav__link">Neighborhood Goods</a>
+          <a href="#" className="nav__link">
+            Neighborhood Goods
+          </a>
         </div>
         <div className="bag">
-          <a>Sign In</a>
+          <a className="nav__link" href="#">Sign In</a>
           <img className="nav__link" src={BagIcon} alt=" " />
         </div>
       </div>
